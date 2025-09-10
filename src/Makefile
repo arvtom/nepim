@@ -106,4 +106,4 @@ clean:
 build: clean default
 
 $(TARGET): $(OBJ)
-	$(CC) -o $@ $^ $(LDFLAGS) $(C_CROSS_COMPILER_ARGS)
+	$(CC) -o $@ $^ $(LDFLAGS)
