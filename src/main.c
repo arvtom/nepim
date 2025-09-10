@@ -31,13 +31,13 @@ MA 02110-1301 USA
 #include <oop.h>
 #include <assert.h>
 
-#ifdef HAVE_SIGHANDLER_T
-# define __USE_GNU
-# include <signal.h>
-#else
+// #ifdef HAVE_SIGHANDLER_T
+// # define __USE_GNU
+// # include <signal.h>
+// #else
 # include <signal.h>
 typedef void (*sighandler_t)(int);
-#endif
+// #endif
 
 #include "conf.h"
 #include "common.h"
