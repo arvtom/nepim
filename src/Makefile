@@ -38,7 +38,7 @@
 # ENABLE_DLOPEN defined as -DHAVE_DLOPEN.
 # Otherwise, tcpwrapper support is disabled.
 
-OOP_BASE = /usr/local/oop
+# OOP_BASE = /usr/local/oop
 OOP_INC  = $(OOP_BASE)/include
 OOP_LIB  = $(OOP_BASE)/lib
 
