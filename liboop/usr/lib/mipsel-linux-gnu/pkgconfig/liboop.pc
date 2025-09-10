@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib/mipsel-linux-gnu
+includedir=${prefix}/include
+
+Name: liboop
+Description: Event loop management library
+Version: 1.0.1
+Libs: -L${libdir} -lpthread -loop
+Cflags: -D_REENTRANT -I${includedir}
